@@ -1,0 +1,74 @@
+md-content.md-default-theme {
+  background-color: #eee;
+}
+
+md-card {
+  background-color: #fff;
+}
+md-card h2:first-of-type {
+  margin-top: 20px;
+}
+
+md-toolbar.md-default-theme.md-hue-2 {
+  background: url(../img/lotus.jpg) no-repeat;
+  background-position: center center;
+    -webkit-background-size: 100% 100%; /* For WebKit*/
+    -moz-background-size: 100% 100%;    /* Mozilla*/
+    -o-background-size: 100% 100%;      /* Opera*/
+    background-size: 100% 100%;         /* Generic*/
+}
+
+md-toolbar.md-tall {
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+md-toolbar .md-button.md-default-theme {
+  border-radius: 99%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.md-tile-content {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.page-item {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.md-toolbar-tools-bottom {
+  font-size: small;
+}
+.md-toolbar-tools-bottom :last-child {
+  opacity: 0.8;
+}
+
+md-toolbar:not(.md-hue-1),
+.md-fab {
+  fill: #fff;
+}
+
+md-sidenav {
+  fill: #737373;
+}
+
+md-sidenav ng-md-icon {
+  position: relative;
+  top: 5px;
+}
+
+.user-avatar {
+  border-radius: 99%;
+}
