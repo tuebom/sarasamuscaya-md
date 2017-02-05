@@ -1,8 +1,3 @@
-
-$(function() {
-  FastClick.attach(document.body);
-});
-
 var app = angular.module('StarterApp', ['ngMaterial', 'ngMdIcons']);
 
 app.controller('AppCtrl', ['$scope', '$mdBottomSheet','$mdSidenav', function($scope, $mdBottomSheet, $mdSidenav){
