@@ -2,6 +2,10 @@ var app = angular.module('StarterApp', ['ngMaterial', 'ngMdIcons']);
 
 app.controller('AppCtrl', ['$scope', '$mdBottomSheet','$mdSidenav', function($scope, $mdBottomSheet, $mdSidenav){
 
+	angular.element(document).ready(function () {
+		FastClick.attach(document.body);
+	});
+	
   $scope.toggleSidenav = function(menuId) {
     $mdSidenav(menuId).toggle();
   };
